@@ -1,0 +1,14 @@
+{
+  "name": "lab6frontnode",
+  "version": "1.0.0",
+  "description": "Laboratorio 6 front node con docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christian Velasquez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
