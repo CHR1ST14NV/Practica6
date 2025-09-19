@@ -1,14 +1,16 @@
 {
-  "name": "lab6frontnode",
-  "version": "1.0.0",
-  "description": "Laboratorio 6 front node con docker",
-  "main": "index.js",
+  "name": "frontnode",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "Christian Velasquez",
-  "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
